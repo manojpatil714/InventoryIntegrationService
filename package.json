@@ -1,0 +1,33 @@
+{
+  "name": "Inventory-Integration-Service",
+  "version": "1.0.0",
+  "description": "a sample application",
+  "auther": "TCS <www.tcs.com>",
+  "contributors": [
+    {
+      "name": "myname",
+      "email": "myemail.tcs.com"
+    }
+  ],
+  "repostitory": {
+    "type": "git",
+    "url": "https://github.com/myworkspace.org/integration_service/ws"
+  },
+  "bugs": {
+    "url": "https://github.com/myworkspace.org/integration_service/issues"
+  },
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bunyan": "^1.5.1",
+    "restify": "~4.0.3",
+    "pg": "^4.4.3",
+    "node-config-manager": "^1.0.2"
+  },
+  "devDependencies": {
+    "node-validator": "^0.1.19",
+    "prettyjson": "^1.1.3"
+  }
+}

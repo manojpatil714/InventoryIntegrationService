@@ -1,0 +1,4 @@
+{
+  "database" : "postgres://postgres:postgrespwd@localhost/todo",
+  "collection" : "['Student']"
+}
